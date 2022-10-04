@@ -12,12 +12,12 @@
 
   <!-- ** Basic Page Needs ** -->
   <meta charset="utf-8">
-  <title>Founder - University of Vedic Sciences</title>
+  <title>Founder - University of Applied Vēdic Sciences</title>
   <!-- ** Mobile Specific Metas ** -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="University of Vedic Sciecnes Website">
+  <meta name="description" content="University of Applied Vēdic Sciecnes Website">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta name="author" content="University of Vedic Sciecnes IT Team">
+  <meta name="author" content="University of Applied Vēdic Sciecnes IT Team">
     
   <!-- bootstrap.min css -->
   <link rel="stylesheet" href="/assets/plugins/bootstrap/bootstrap.min.css">
@@ -37,16 +37,16 @@
 <div class="bg-white">
   <div class="container">
     <h3 class="text-center p-2">
-      University of Applied Vedic Sciences (Online)
+      University of Applied Vēdic Sciences (Online)
     </h3>
   </div>
 </div>
 -->
 <nav class="navbar navbar-expand-lg fixed-top trans-navigation">
   <div class="container">    
-    <div class="text-white text-center d-block d-sm-none">University of Applied Vedic Sciences (Online)</div>
+    <div class="text-white text-center d-block d-sm-none">University of Applied Vēdic Sciences (Online)</div>
     <a class="navbar-brand" href="/en/index.html">
-      <img src="/assets/images/logo-white3.png" alt="University of Vedic Sciences" class="img-fluid b-logo"
+      <img src="/assets/images/logo-white3.png" alt="University of Vēdic Sciences" class="img-fluid b-logo"
       style="max-height:100px;">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav"
@@ -80,22 +80,13 @@
   </div>
 </nav>
 <!--MAIN HEADER AREA END -->
-<!--MAIN BANNER AREA START -->
-<div class="page-banner-area page-contact" id="page-banner">
-  <div class="overlay dark-overlay"></div>
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 m-auto text-center col-sm-12 col-md-12">
-        <div class="banner-content content-padding">
-          <h1 class="text-white">Our University Founder</h1>
-          <p></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!--MAIN HEADER AREA END -->
-
+<!--
+@-@include('blocks/page-title.htm', {
+"title": "Our University Founder",
+"description": ""
+})
+-->
+<div class="page-banner-area2 page-service bg-primary2"  id="page-banner"></div>
 <section class="section-padding">
   <div class="container">
     <div class="row align-items-center">
@@ -108,20 +99,20 @@
           Dr. Venkata R Chaganti, founder, has PhD in Physics with Quantum Dots Specialization from Georgia State University.  
           His vast experience includes teaching and serving AI/ML industries in various capacities. 
           Currently Dr. Chaganti is working as Chief Scientific Officer for a few startup companies which focusses on 
-          finding food allergies, medical diagnostics, and environmental aspects by using Vedic, AI, and Nano Sciences.
+          finding food allergies, medical diagnostics, and environmental aspects by using Vēdic, AI, and Nano Sciences.
           He also worked on medical industry in relation to various medical equipment.
         </p>
         <p>
-          Dr. Venkata Chaganti, the president of Vedas World Inc, a non-profit organization established in Atlanta, USA, focusing on propagating 
-          Vedic concepts and doing scientific evidence-based research on Vedic principles.
-          Dr. Chaganti did research in Vedas for more than 38 years and more than 30 years of experience in 
-          performing Yajna rituals. Through Vedas World, Dr. Chaganti, has been continuously educating people 
-          on Vedic aspects through their website: www.vedas.us, www.vedas.world  and 
-          YouTube Channel (Venkata Chaganti, Vedas World) with more than 700 videos so far since 2015.
+          Dr. Venkata Chaganti, the president of Vēdas World Inc, a non-profit organization established in Atlanta, USA, focusing on propagating 
+          Vēdic concepts and doing scientific evidence-based research on Vēdic principles.
+          Dr. Chaganti did research in Vēdas for more than 38 years and more than 30 years of experience in 
+          performing Yajna rituals. Through Vēdas World, Dr. Chaganti, has been continuously educating people 
+          on Vēdic aspects through their website: www.vedas.us, www.vedas.world  and 
+          YouTube Channel (Venkata Chaganti, Vēdas World) with more than 700 videos so far since 2015.
         </p>
         <p>
-          Dr. Venkata Chaganti is also serving as president for Vedas WIKI, a non-profit organization focussing
-          on providing digital tranformation to vedic mantras. 
+          Dr. Venkata Chaganti is also serving as president for Vēdas WIKI, a non-profit organization focussing
+          on providing digital tranformation to vēdic mantras. 
         </p>
       </div>
      
@@ -142,8 +133,8 @@
             <img src="/assets/images/logo.png" alt="University of Vedic Sciences" class="img-fluid b-logo d-flex">
           </a>         
           -->
-          <p>University of Applied Vedic Sciences (online) is the research oriented academic 
-            organization with emphasis on outcome-driven real-world projects.</p>
+          <p>University of Applied Vēdic Sciences (online) is a research-oriented academic 
+            organization with emphasis on outcome-driven real-world projects extracted from Vēdas and Shāstrās.</p>
 
             <p class="pt-2 font-weight-bold">Vēdas are the knowledge of God and everyone in the universe is eligible to read Vēdas.</p>
         </div>
@@ -151,10 +142,8 @@
       <div class="col-lg-2 col-md-4 col-6">
         <div class="footer-widget footer-link">
           <h4>About</h4>
-          <ul>
-            <li><a href="/en/about.html">About</a></li>
-            <li><a href="/en/founder.html">Founder</a></li>            
-            <li><a href="/en/faculty.html">Faculty</a></li>
+          <ul>            
+            <li><a href="/en/founder.html">Founder</a></li>      
             <li><a href="/en/advisory.html">Board Members</a></li>                  
           </ul>
         </div>
@@ -163,9 +152,7 @@
       <div class="col-lg-2 col-md-4 col-6">
         <div class="footer-widget footer-link">
           <h4>Links</h4>
-          <ul>
-            <li><a href="/en/academics.html">Academics</a></li>
-            <li><a href="/en/contact.html">Contact</a></li>
+          <ul>              
             <li><a href="/en/privacy.html">Privacy Policy</a></li>
             <li><a href="/en/terms.html">Terms & Conditions</a></li>
            </ul>
@@ -174,7 +161,7 @@
       <div class="col-lg-3 col-md-4 col-sm-12">
         <div class="footer-widget footer-text">
           <h4>Reach Us</h4>
-          <p class="mail"><span>Email: </span>namaste@vedic.university</p>
+          <p class="mail"><span>Email: </span>namaste@vedas.university</p>
         </div>
       </div>
     </div>
