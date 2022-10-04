@@ -1,10 +1,3 @@
-/**
- * WEBSITE: https://vedas.university
- * TWITTER: https://twitter.com/vedicuniversity
- * FACEBOOK: https://www.facebook.com/vedicuniversity
- * GITHUB: https://github.com/vedicuniversity/
- */
-
 (function ($) {
 	'use strict';
 
@@ -87,5 +80,30 @@
 		$('.navbar-toggler:visible').click();
 	});
 
+
+	// The function actually applying the offset
+function offsetAnchor() {
+	if (location.hash.length) {
+	  window.scrollTo(window.scrollX, window.scrollY - 200);
+	}
+  }
+  
+  // Captures click events of all <a> elements with href starting with #
+  $(document).on('click', 'a[href^="#"]', function(event) {
+	// Click events are captured before hashchanges. Timeout
+	// causes offsetAnchor to be called after the page jump.
+	window.setTimeout(function() {
+	  offsetAnchor();
+	}, 0);
+  });
+  
+  // Set the offset when entering page with hash present in the url
+  window.setTimeout(offsetAnchor, 0);
+
+  if (document.location.hash) {
+	setTimeout(function() {
+		window.scrollTo(window.scrollX, window.scrollY - 200);
+	}, 10);
+}
 
 })(jQuery);
