@@ -377,6 +377,11 @@ p, li {
   text-decoration: underline;
 }
 
+.ol_num > li {
+  display: list-item;
+  list-style: number !important;
+}
+
 /*
 :target::before {
   content: "";
@@ -392,8 +397,7 @@ p, li {
 /*------------------------------------
   MENU NAVIGATION AREA
 ----------------------------------*/
-.site-navigation,
-.trans-navigation {
+.site-navigation .trans-navigation {
   padding: 20px 0px;
 }
 
