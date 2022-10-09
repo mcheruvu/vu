@@ -144,6 +144,10 @@ a.read-more:hover {
   color: #222;
 }
 
+li {
+  list-style: none;
+}
+
 section,
 .section-padding {
   padding: 70px 0;
@@ -515,6 +519,15 @@ a[href^=tel] {
 
 .line-height-1_5 {
   line-height: 1.5px;
+}
+
+.about-list2 li {
+  list-style: none !important;
+}
+
+.about-list2 li i {
+  margin-right: 10px;
+  color: #8b0000;
 }
 
 /* Button */
