@@ -268,7 +268,7 @@ jQuery(function ($) {
 
 	});
 
-
+	/*
 	function offsetAnchor() {
 		if (location.hash.length) {
 		  window.scrollTo(window.scrollX, window.scrollY - 140);
@@ -292,5 +292,5 @@ jQuery(function ($) {
 			window.scrollTo(window.scrollX, window.scrollY - 140);
 		}, 10);
 	}
-
+	*/
 });
