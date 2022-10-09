@@ -100,7 +100,7 @@ body {
   font-weight: 400;
   line-height: 26px;
   font-family: "Rubik", sans-serif;
-  color: #788487;
+  color: #000;
   position: relative;
 }
 
@@ -868,6 +868,10 @@ ul.top-info-box > li.nav-search i {
 }
 
 /* Main navigation */
+.header-bar {
+  background: #8b0000;
+}
+
 .navbar-toggler {
   float: left;
   margin-top: 10px;
