@@ -1,10 +1,3 @@
-/**
- * WEBSITE: https://vedas.university
- * TWITTER: https://twitter.com/vedicuniversity
- * FACEBOOK: https://www.facebook.com/vedicuniversity
- * GITHUB: https://github.com/vedicuniversity/
- */
-
 jQuery(function ($) {
 	'use strict';
 
@@ -268,7 +261,7 @@ jQuery(function ($) {
 
 	});
 
-	/*
+	
 	function offsetAnchor() {
 		if (location.hash.length) {
 		  window.scrollTo(window.scrollX, window.scrollY - 140);
@@ -292,5 +285,5 @@ jQuery(function ($) {
 			window.scrollTo(window.scrollX, window.scrollY - 140);
 		}, 10);
 	}
-	*/
+	
 });
