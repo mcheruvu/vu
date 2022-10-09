@@ -7,84 +7,222 @@ function initialize() {
   var mapMarker = $('#map').attr('data-marker');
   var mapMarkerName = $('#map').attr('data-marker-name');
   var nottingham = new google.maps.LatLng(latitude, longitude);
-  var style = [
-    {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
-    {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
-    {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
-    {
-      featureType: 'administrative.locality',
-      elementType: 'labels.text.fill',
-      stylers: [{color: '#d59563'}]
+  var style = [{
+      "featureType": "administrative.locality",
+      "elementType": "all",
+      "stylers": [{
+          "hue": "#2c2e33"
+        },
+        {
+          "saturation": 7
+        },
+        {
+          "lightness": 19
+        },
+        {
+          "visibility": "on"
+        }
+      ]
     },
     {
-      featureType: 'poi',
-      elementType: 'labels.text.fill',
-      stylers: [{color: '#d59563'}]
+      "featureType": "administrative.locality",
+      "elementType": "labels.text",
+      "stylers": [{
+          "visibility": "on"
+        },
+        {
+          "saturation": "-3"
+        }
+      ]
     },
     {
-      featureType: 'poi.park',
-      elementType: 'geometry',
-      stylers: [{color: '#263c3f'}]
+      "featureType": "administrative.locality",
+      "elementType": "labels.text.fill",
+      "stylers": [{
+        "color": "#282a00"
+      }]
     },
     {
-      featureType: 'poi.park',
-      elementType: 'labels.text.fill',
-      stylers: [{color: '#6b9a76'}]
+      "featureType": "landscape",
+      "elementType": "all",
+      "stylers": [{
+          "hue": "#ffffff"
+        },
+        {
+          "saturation": -100
+        },
+        {
+          "lightness": 100
+        },
+        {
+          "visibility": "simplified"
+        }
+      ]
     },
     {
-      featureType: 'road',
-      elementType: 'geometry',
-      stylers: [{color: '#38414e'}]
+      "featureType": "poi",
+      "elementType": "all",
+      "stylers": [{
+          "hue": "#ffffff"
+        },
+        {
+          "saturation": -100
+        },
+        {
+          "lightness": 100
+        },
+        {
+          "visibility": "off"
+        }
+      ]
     },
     {
-      featureType: 'road',
-      elementType: 'geometry.stroke',
-      stylers: [{color: '#212a37'}]
+      "featureType": "poi.school",
+      "elementType": "geometry.fill",
+      "stylers": [{
+          "color": "#f39247"
+        },
+        {
+          "saturation": "0"
+        },
+        {
+          "visibility": "on"
+        }
+      ]
     },
     {
-      featureType: 'road',
-      elementType: 'labels.text.fill',
-      stylers: [{color: '#9ca5b3'}]
+      "featureType": "road",
+      "elementType": "geometry",
+      "stylers": [{
+          "hue": "#ffb600"
+        },
+        {
+          "saturation": "100"
+        },
+        {
+          "lightness": 31
+        },
+        {
+          "visibility": "simplified"
+        }
+      ]
     },
     {
-      featureType: 'road.highway',
-      elementType: 'geometry',
-      stylers: [{color: '#746855'}]
+      "featureType": "road",
+      "elementType": "geometry.stroke",
+      "stylers": [{
+          "color": "#ffb600"
+        },
+        {
+          "saturation": "0"
+        }
+      ]
     },
     {
-      featureType: 'road.highway',
-      elementType: 'geometry.stroke',
-      stylers: [{color: '#1f2835'}]
+      "featureType": "road",
+      "elementType": "labels",
+      "stylers": [{
+          "hue": "#008eff"
+        },
+        {
+          "saturation": -93
+        },
+        {
+          "lightness": 31
+        },
+        {
+          "visibility": "on"
+        }
+      ]
     },
     {
-      featureType: 'road.highway',
-      elementType: 'labels.text.fill',
-      stylers: [{color: '#f3d19c'}]
+      "featureType": "road.arterial",
+      "elementType": "geometry.stroke",
+      "stylers": [{
+          "visibility": "on"
+        },
+        {
+          "color": "#f3dbc8"
+        },
+        {
+          "saturation": "0"
+        }
+      ]
     },
     {
-      featureType: 'transit',
-      elementType: 'geometry',
-      stylers: [{color: '#2f3948'}]
+      "featureType": "road.arterial",
+      "elementType": "labels",
+      "stylers": [{
+          "hue": "#bbc0c4"
+        },
+        {
+          "saturation": -93
+        },
+        {
+          "lightness": -2
+        },
+        {
+          "visibility": "simplified"
+        }
+      ]
     },
     {
-      featureType: 'transit.station',
-      elementType: 'labels.text.fill',
-      stylers: [{color: '#d59563'}]
+      "featureType": "road.arterial",
+      "elementType": "labels.text",
+      "stylers": [{
+        "visibility": "off"
+      }]
     },
     {
-      featureType: 'water',
-      elementType: 'geometry',
-      stylers: [{color: '#17263c'}]
+      "featureType": "road.local",
+      "elementType": "geometry",
+      "stylers": [{
+          "hue": "#e9ebed"
+        },
+        {
+          "saturation": -90
+        },
+        {
+          "lightness": -8
+        },
+        {
+          "visibility": "simplified"
+        }
+      ]
     },
     {
-      featureType: 'water',
-      elementType: 'labels.text.fill',
-      stylers: [{color: '#515c6d'}]
+      "featureType": "transit",
+      "elementType": "all",
+      "stylers": [{
+          "hue": "#e9ebed"
+        },
+        {
+          "saturation": 10
+        },
+        {
+          "lightness": 69
+        },
+        {
+          "visibility": "on"
+        }
+      ]
     },
     {
-      featureType: 'water',
-      elementType: 'labels.text.stroke',
-      stylers: [{color: '#17263c'}]
+      "featureType": "water",
+      "elementType": "all",
+      "stylers": [{
+          "hue": "#e9ebed"
+        },
+        {
+          "saturation": -78
+        },
+        {
+          "lightness": 67
+        },
+        {
+          "visibility": "simplified"
+        }
+      ]
     }
   ];
   var mapOptions = {

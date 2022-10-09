@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <!--
  // WEBSITE: https://vedas.university
  // TWITTER: https://twitter.com/vedicuniversity
@@ -7,408 +5,570 @@
  // GITHUB: https://github.com/vedicuniversity/
 -->
 
+<!-- 
+THEME: Constra - Construction Html5 Template
+VERSION: 1.0.0
+AUTHOR: Themefisher
+
+HOMEPAGE: https://themefisher.com/products/constra-construction-template/
+DEMO: https://demo.themefisher.com/constra/
+GITHUB: https://github.com/themefisher/Constra-Bootstrap-Construction-Template
+
+WEBSITE: https://themefisher.com
+TWITTER: https://twitter.com/themefisher
+FACEBOOK: https://www.facebook.com/themefisher
+-->
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
 
-  <!-- ** Basic Page Needs ** -->
+  <!-- Basic Page Needs
+================================================== -->
   <meta charset="utf-8">
   <title>About Us - University of Applied Vēdic Sciences</title>
-  <!-- ** Mobile Specific Metas ** -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="University of Applied Vēdic Sciecnes Website">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta name="author" content="University of Applied Vēdic Sciecnes IT Team">
-    
-  <!-- bootstrap.min css -->
+
+  <!-- Mobile Specific Metas
+================================================== -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="University of Applied Vēdic Sciecnes Website">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="author" content="University of Applied Vēdic Sciecnes IT Team">
+  
+
+  <!-- Favicon
+================================================== -->
+  <link rel="icon" type="image/png" href="/assets/images/favicon.ico" type="image/x-icon">
+
+  <!-- CSS
+================================================== -->
+  <!-- Bootstrap -->
   <link rel="stylesheet" href="/assets/plugins/bootstrap/bootstrap.min.css">
-  <!-- fontawesome css -->
-  <link rel="stylesheet" href="/assets/plugins/fontawesome/css/all.css">
-  <!-- Icofont -->
-  <link rel="stylesheet" href="/assets/plugins/icofont/icofont.css">
-
-  <!-- Main Stylesheet -->
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="/assets/plugins/fontawesome/css/all.min.css">
+  <!-- Animation -->
+  <link rel="stylesheet" href="/assets/plugins/animate-css/animate.css">
+  <!-- slick Carousel -->
+  <link rel="stylesheet" href="/assets/plugins/slick/slick.css">
+  <link rel="stylesheet" href="/assets/plugins/slick/slick-theme.css">
+  <!-- Colorbox -->
+  <link rel="stylesheet" href="/assets/plugins/colorbox/colorbox.css">
+  <!-- Template styles-->
   <link rel="stylesheet" href="/assets/css/style.css">
-  
-  <!--Favicon-->
-  <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon">
 
-</head><body data-spy="scroll" data-target="#mainNav">
- 
-  
+</head>
+<body>
+  <div class="body-inner">
 
-<nav class="navbar navbar-expand-lg fixed-top trans-navigation">
-  <div class="container">    
-    
-    <a class="navbar-brand" href="/en/index.html">
-      <img src="/assets/images/logo-white3.png" alt="University of Vēdic Sciences" class="img-fluid b-logo"
-      >
-    </a>
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon">
-        <i class="fa fa-bars"></i>
-      </span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="mainNav">          
-      <ul class="navbar-nav ">
-        <li class="nav-item">
-          <a class="nav-link smoth-scroll" href="/en/index.html">Home</a>
-        </li>       
-        <li class="nav-item">
-          <a class="nav-link smoth-scroll" href="/en/about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link smoth-scroll" href="/en/academics.html">Academics</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link smoth-scroll" href="/en/faculty.html">Faculty</a>
-        </li>
-        <!--<li class="nav-item">
-          <a class="nav-link smoth-scroll" href="/en/blog.html">Blog</a>
-        </li>-->
-        <li class="nav-item">
-          <a class="nav-link smoth-scroll" href="/en/contact.html">Contact</a>
-        </li>
-      </ul>      
-    </div>
-  </div>
-</nav>
-<!--MAIN HEADER AREA END -->
-
-
-<!--
-@-@include('blocks/page-title.htm', {
-"title": "About Us",
-"description": "Our university is a Vēdic-centered organization delivering excellence in knowledge."
-})
--->
-<div class="page-banner-area2 page-service bg-primary2"  id="page-banner"></div>
-<style>
-   #about-nav li {width: 160px;line-height: 2.5;}
-</style>
-<section class="pt-4">
-  <div class="container">
-    <ul id="about-nav" class="list-inline">
-      <li class="list-inline-item align-top">
-        <a class="a_underline" href="#vision">Our Vision</a>
-        </li>
-        <li class="list-inline-item align-top"> <a class="a_underline"  href="#mission">Our Mission</a></li>
-        <li class="list-inline-item align-top"><a class="a_underline"  href="#objectives">Our Objectives</a></li>
-        <li class="list-inline-item align-top"> <a class="a_underline"  href="#authority">Authority to Operate</a></li>
-    </ul>
-     
-  </div>
-</section>
-<section class="section-padding">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-sm-12 col-md-8 mb-4">
-        <h3 id="vision" class="mb-3">Our Vision</h3>
-        <p class="mb-4">Our vision is to empower students to value Vēdic knowledge and skills that
-          will support them as life-long learners.
-          </p>
-          <p> The impact will be on trained doctors, engineers, scientists, politicians,
-            economists, farmers, teachers, philosophers, etc. </p>
-
-        <h3 id="mission" class="mb-3">Our Mission</h3>
-
-        <span class="h5 mb-4">What do we do?</span>
-        <ul class="about-list2 my-4">
-          <li class="mb-2"><i class="far fa-check-circle"></i> 
-            <span class="font-weight-bold">Community: </span>
-            We build an enthusiastic creative community of vēdic learners.
-            </li>
-
-          <li class="mb-2">
-            <i class="far fa-check-circle"> </i> 
-            <span class="font-weight-bold">Quality: </span>
-            We provide relevant high-quality knowledge transfer of Vēdas.
-          </li>
-
-          <li class="mb-2">
-            <i class="far fa-check-circle"> </i>
-            <span class="font-weight-bold">Excellence: </span>
-            We are dedicated to a continuing vēdic tradition of excellence in an ever changing world.
-          </li>
-
-          <li class="mb-2">
-            <i class="far fa-check-circle"> </i>  
-            <span class="font-weight-bold">Vēdic-Centered: </span>
-            Our university is a vēdic-centered organization delivering excellence in knowledge.           
-          </li>
-        </ul>
-
-        <span class="h5 mb-4">How do we do?</span>
-        <ul class="about-list2 my-4">
-          <li class="mb-2"><i class="far fa-check-circle"></i> 
-            <span class="font-weight-bold">Research Focused: </span>
-            The mission of the university is to be at the forefront of
-            the advancement of knowledge in the 21st Century through ground-breaking Vēdic
-            research agendas that will give our world the tools that they need to live healthy,
-            productive, prosperous, joyful, and meaningful lives.
-            </li>
-
-          <li class="mb-2">
-            <i class="far fa-check-circle"> </i> 
-            <span class="font-weight-bold"> Peer Learning: </span>
-            Learners work in groups that help communication and teamwork.
-            Hearing the perspectives of team members helps learners to see things from multiple
-            perspectives.
-          </li>
-
-          <li class="mb-2">
-            <i class="far fa-check-circle"> </i>
-            <span class="font-weight-bold">Project Based Learning: </span>
-            Learners are given short/long term Vēdic knowledge-based
-            projects to get a chance to investigate complex problems and identify real-world
-            solutions.
-          </li>
-
-          <li class="mb-2">
-            <i class="far fa-check-circle"> </i>  
-            <span class="font-weight-bold">Discovery: </span>
-            Learners discover solution to problems themselves instead of
-            being told the answers.            
-          </li>
-        </ul>
-
-        <span class="h5 mb-4">Value Statement</span>
-        <p>Graduates will be motivated life-long learners and productive global
-          Vēdic citizens.</p>
-      </div>
-
-      <div class="col-lg-6 col-md-4 align-top">
-        <img src="/assets/images/about/about-5.jpg" alt="" class="img-fluid w-100">
-      </div>
-    </div>
-  </div>
-  </section>
-
-  <section class="section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-4">
-          <img src="/assets/images/about/online_class.jpg" alt="" class="img-fluid w-100">
-        </div>
-        <div class="col-lg-6 col-sm-12 col-md-8 mb-4">
-          <h3 id="objectives" class="mb-3">Our Objectives</h3>          
-            
-          <ul class="about-list2 my-4">
-            <li class="mb-2"><i class="far fa-check-circle"></i>              
-              Learning the language of Sanskrit through Siksha (Basics of Sanskrit language) and Ashtādyayi (grammar). 
-              </li>
-              <li class="mb-2"><i class="far fa-check-circle"></i>              
-                Understand the Vēdic Philosophy as explained by the Upanishads 
-                to understand the nature of Ishwar (God) or what is called as Vēdanta. 
-                </li>
-
-                <li class="mb-2"><i class="far fa-check-circle"></i>              
-                  Understand the Vēdic Darshanas or what is called as the six thoughts 
-                  of understanding the Srishti (creation) by Ishwar (God).   
-                  </li>
-
-                  <li class="mb-2"><i class="far fa-check-circle"></i>              
-                    Understanding Natural Science, Social Science, Economics, Political Science, and 
-                    other contemporary studies from Vēdas, Upavēdas, Brāhmannās, Upanishads, 
-                    Darshanās, and other Vēdic Literature that are applicable to the selected research area/domain.  
-                    </li>
-
-                    <li class="mb-2"><i class="far fa-check-circle"></i>              
-                      Benefit the contemporary knowledge and society by doing 
-                      research of Vēda Mantras and extracting the knowledge present in Vēdas.   
-                      </li>
-          </ul>
-            <p>
-              Please read about our founder <a class="a_underline" href="/en/profiles/venkata-chaganti.html"><b>Dr. Venkata Ramana Chaganti</b></a>
-            </p>
-        </div>
-      </div>
-    </div>
-    </section>
-
- 
-
-<section class="section-padding">
-  <div class="container">
-    
-    <h3 id="authority" class="pb-4">Authority to Operate</h3>
-
-    <h4 class="pb-4">Vēdic Authority</h4>
-    <div class="row align-items-center">     
-      <div class="col-lg-6 col-sm-12 col-md-8 mb-4">
-
-        <p>
-          <img src="/assets/images/about/Yajur_26_2.jpg" alt="" class="img-fluid">
-        </p>
-        <p>
-          According to Yajur Vēda mantra (26.2) (The above mantra) everyone in the universe is eligible to read Vēdas.
-          According to Manu “educating people by teaching Vēdas is the best act that any individual or society can do”. 
-        </p>
-
-        
-        <h3 class="mb-3">Who can read Vēdas?</h3>
-        <p class="mb-4">   
-         
-    According to Maharishi Dayanada Saraswathi “Vēdas are given by God. 
-          God is omnipotent, ubiquitous and has eternal knowledge. 
-          Therefore His Vēdas are without illusion and are self vouching”. 
-        </p>
-       
-        <p>
-          Vēdas are the knowledge of God.
-          At the beginning of creation God gave the knowledge of four Vēdas to four Rishis. Rig Vēd to Agni, Yajur Vēd to Vāyu, 
-          Sāma Vēd to Surya and Atharva Vēd to Angirasa. Here the names Agni, Vāyu, Surya and Angirasa belong to 
-          Rishis who are humans and are not of any Devatha (divine material) found in Vēdas. 
-          The language of Vēdas is Samskrut (Sanskrit).
-          According to Rishis Vēdas are described as follows. Those in which the properties, 
-          activities and nature of God are described and in which there is no dispute in the order of 
-          creation of the world and in which proofs of science can be found and in which there is no illusion or 
-          confusion and in which cause and reason about the universe and its constituents are described and in 
-          which truth and only truth is given and which are self vouching are called Vēdas, 
-          Sruthis, Nigamas, Chanddass or Mantras.
-          </p>
-      
-      </div>
-      <div class="col-lg-6 col-md-4">
-        <img src="/assets/images/about/maharshi_dayananda.jpg" alt="" class="img-fluid w-100"><br/>
-        <span class="font-weight-bold d-flex justify-content-center">Maharishi Dayanada Saraswathi</span>
-      </div>
-    </div>
-    
-    <div class="pt-4 pb-4">
-
-    </div>
-
-    
-    <!--
-    <div class="pt-4">
-      <h4 class="pb-4">Video about our University</h4>
-			<iframe src="https://player.vimeo.com/video/51119176" width="100%" height="360" frameborder="0"
-					webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </div>
-    -->
-
-  </div>
-
-  
-</section>
-
-<!--
-<section class="section-padding bg-gray">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8">
-        <div>
-          <h3 class="mb-2 text-white">Legal Authority</h3>
-          <p class="text-white">
-            <span class="text-white font-weight-bold">The following statement is required by law:</span><br/>
-            Degree programs of study offered by University of Applied Sciences (online) have been declared exempt from the requirements 
-            for licensure under provisions of North Carolina General Statutes Section (G.S.) §116-15(d) for 
-            exemption from licensure with respect to religious education. Exemption from licensure is not based upon 
-            any assessment of program quality under established licensing standards.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
--->
-
-<!--
-<section class="section-padding">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-md-4">
-        <img src="/assets/images/about/graduation.png" alt="" class="img-fluid w-100">
-      </div>
-      <div class="col-lg-6 col-sm-12 col-md-8 mb-4">
-        <h3 class="mb-3">Accreditation Status</h3>
-        <p class="mb-4">
-          For now, University of Applied Vēdic Sciecnes is not accredited. 
-          It however offers a legitimate degree authorized by the State of North Carolina.
-
-        We are working through an internal university evaluation process 
-        while preparing our application for accreditation.
-        </p>        
-      </div>      
-    </div>
-  </div>
-  </section>
--->
-<!--  ABOUT AREA END  -->
-
-<!--  FOOTER AREA START  -->
-<section id="footer" class="section-padding">
-  <div class="container">
-    <div class="row justify-content-around">
-      <div class="col-lg-4">
-        <div class="footer-widget footer-link">
+    <div id="top-bar" class="top-bar">
+        <div class="container">
+          <h4 class="text-center">University of Applied Vēdic Sciences</h4>
           <!--
-          <a class="navbar-brand" href="/en/index.html">
-            <img src="/assets/images/logo.png" alt="University of Vedic Sciences" class="img-fluid b-logo d-flex">
-          </a>         
-          -->
-          <p>University of Applied Vēdic Sciences (online) is a research-oriented academic 
-            organization with emphasis on outcome-driven real-world projects extracted from Vēdas and Shāstrās.</p>
-
-            <p class="pt-2 font-weight-bold">Vēdas are the knowledge of God and everyone in the universe is eligible to read Vēdas.</p>
+          <div class="row">
+              <div class="col-lg-8 col-md-8 text-center">
+                <h4>University of Applied Vēdic Sciences</h4>
+              </div>
+              
+  
+              <div class="col-lg-4 col-md-4 top-social text-center text-md-right">
+                
+                <ul class="list-unstyled">
+                    <li>
+                      <a title="Facebook" href="https://facebbok.com/themefisher.com">
+                          <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
+                      </a>
+                      <a title="Twitter" href="https://twitter.com/themefisher.com">
+                          <span class="social-icon"><i class="fab fa-twitter"></i></span>
+                      </a>
+                      <a title="Instagram" href="https://instagram.com/themefisher.com">
+                          <span class="social-icon"><i class="fab fa-instagram"></i></span>
+                      </a>
+                      <a title="Linkdin" href="https://github.com/themefisher.com">
+                          <span class="social-icon"><i class="fab fa-github"></i></span>
+                      </a>
+                    </li>
+                </ul>
+               
+              </div>
+              
+          </div>
+        -->
+          <!--/ Content row end -->
         </div>
-      </div>
-      <div class="col-lg-2 col-md-4 col-6">
-        <div class="footer-widget footer-link">
-          <h4>About</h4>
-          <ul>            
-            <li><a href="/en/profiles/venkata-chaganti.html">Founder</a></li>      
-            <li><a href="/en/advisory.html">Board Members</a></li>                  
-          </ul>
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-md-4 col-6">
-        <div class="footer-widget footer-link">
-          <h4>Links</h4>
-          <ul>              
-            <li><a href="/en/privacy.html">Privacy Policy</a></li>
-            <li><a href="/en/terms.html">Terms & Conditions</a></li>
-           </ul>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-12">
-        <div class="footer-widget footer-text">
-          <h4>Reach Us</h4>
-          <p class="mail"><span>Email: </span>namaste@vedas.university</p>
-        </div>
-      </div>
+        <!--/ Container end -->
     </div>
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <div class="footer-copy">
-          Copyright &copy; 2022 - 2023
-        </div>
-      </div>
-    </div>
+    <!--/ Topbar end -->
+<!-- Header start -->
+<header id="header" class="header-one">
+  <div class="bg-white">
+    <div class="container">
+      <div class="logo-area">
+          <div class="row align-items-center">
+            <div class="logo col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
+                <a class="d-block" href="index.html">
+                  <img loading="lazy" src="/assets/images/logo.png" alt="University of Applied Vedic Sciences">
+                </a>
+            </div><!-- logo end -->
+  
+            <div class="col-lg-9 header-right">
+                <ul class="top-info-box">
+                  <li>
+                    <div class="info-box">
+                      <div class="info-box-content">
+                          <p class="info-box-title">Call Us</p>
+                          <p class="info-box-subtitle">(+1) 123-456-7890</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="info-box">
+                      <div class="info-box-content">
+                          <p class="info-box-title">Email Us</p>
+                          <p class="info-box-subtitle">
+                            <a class="a_underline" href = "mailto: namaste@vedas.university">namaste@vedas.university</a>
+                          </p>
+                      </div>
+                    </div>
+                  </li>
+                  <!--
+                  <li class="last">
+                    <div class="info-box last">
+                      <div class="info-box-content">
+                          <p class="info-box-title"> Certificate</p>
+                          <p class="info-box-subtitle">ISO 9001:2017</p>
+                      </div>
+                    </div>
+                  </li>
+                  -->
+                  <li class="header-apply-now">
+                    <a class="btn btn-primary" href="/en/contact.html">Apply Now</a>
+                  </li>
+                </ul><!-- Ul end -->
+            </div><!-- header right end -->
+          </div><!-- logo area end -->
+  
+      </div><!-- Row end -->
+    </div><!-- Container end -->
   </div>
-</section>
-<!--  FOOTER AREA END  -->
+
+  <div class="site-navigation">
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+              <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div id="navbar-collapse" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav mr-auto">
+                      <li class="nav-item">
+                        <a class="nav-link smoth-scroll" href="/en/index.html">Home</a>
+                      </li>       
+                      <li class="nav-item">
+                        <a class="nav-link smoth-scroll" href="/en/about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link smoth-scroll" href="/en/academics.html">Academics</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link smoth-scroll" href="/en/faculty.html">Faculty</a>
+                      </li>
+                      <!--<li class="nav-item">
+                        <a class="nav-link smoth-scroll" href="/en/blog.html">Blog</a>
+                      </li>-->
+                      <li class="nav-item">
+                        <a class="nav-link smoth-scroll" href="/en/contact.html">Contact</a>
+                      </li>
+                    </ul>
+                </div>
+              </nav>
+          </div>
+          <!--/ Col end -->
+        </div>
+        <!--/ Row end -->
+
+        <!--
+        <div class="nav-search">
+          <span id="search"><i class="fa fa-search"></i></span>
+        </div>
+
+        <div class="search-block" style="display: none;">
+          <label for="search-field" class="w-100 mb-0">
+            <input type="text" class="form-control" id="search-field" placeholder="Type what you want and enter">
+          </label>
+          <span class="search-close">&times;</span>
+        </div>
+      -->
+        <!-- Site search end -->
+    </div>
+    <!--/ Container end -->
+
+  </div>
+  <!--/ Navigation end -->
+</header>
+<!--/ Header end -->
+
+<style>
+    #about-nav li {width: 160px;line-height: 2.5;}
+ </style>
+ 
+ <section class="pt-4">
+    <div class="container">
+        <ul id="about-nav" class="list-inline">
+          <li class="list-inline-item align-top">
+            <a class="a_underline" href="#vision">Our Vision</a>
+            </li>
+            <li class="list-inline-item align-top"> <a class="a_underline"  href="#mission">Our Mission</a></li>
+            <li class="list-inline-item align-top"><a class="a_underline"  href="#objectives">Our Objectives</a></li>
+            <li class="list-inline-item align-top"> <a class="a_underline"  href="#authority">Authority to Operate</a></li>
+        </ul>      
+      </div>
+
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-6 col-sm-12 col-md-8 mb-4">
+         <h3 id="vision" class="mb-3">Our Vision</h3>
+         <p class="mb-4">Our vision is to empower students to value Vēdic knowledge and skills that
+           will support them as life-long learners.
+           </p>
+           <p> The impact will be on trained doctors, engineers, scientists, politicians,
+             economists, farmers, teachers, philosophers, etc. </p>
+ 
+         <h3 id="mission" class="mb-3">Our Mission</h3>
+ 
+         <span class="h5 mb-4">What do we do?</span>
+         <ul class="about-list2 my-4">
+           <li class="mb-2"><i class="far fa-check-circle"></i> 
+             <span class="font-weight-bold">Community: </span>
+             We build an enthusiastic creative community of vēdic learners.
+             </li>
+ 
+           <li class="mb-2">
+             <i class="far fa-check-circle"> </i> 
+             <span class="font-weight-bold">Quality: </span>
+             We provide relevant high-quality knowledge transfer of Vēdas.
+           </li>
+ 
+           <li class="mb-2">
+             <i class="far fa-check-circle"> </i>
+             <span class="font-weight-bold">Excellence: </span>
+             We are dedicated to a continuing vēdic tradition of excellence in an ever changing world.
+           </li>
+ 
+           <li class="mb-2">
+             <i class="far fa-check-circle"> </i>  
+             <span class="font-weight-bold">Vēdic-Centered: </span>
+             Our university is a vēdic-centered organization delivering excellence in knowledge.           
+           </li>
+         </ul>
+ 
+         <span class="h5 mb-4">How do we do?</span>
+         <ul class="about-list2 my-4">
+           <li class="mb-2"><i class="far fa-check-circle"></i> 
+             <span class="font-weight-bold">Research Focused: </span>
+             The mission of the university is to be at the forefront of
+             the advancement of knowledge in the 21st Century through ground-breaking Vēdic
+             research agendas that will give our world the tools that they need to live healthy,
+             productive, prosperous, joyful, and meaningful lives.
+             </li>
+ 
+           <li class="mb-2">
+             <i class="far fa-check-circle"> </i> 
+             <span class="font-weight-bold"> Peer Learning: </span>
+             Learners work in groups that help communication and teamwork.
+             Hearing the perspectives of team members helps learners to see things from multiple
+             perspectives.
+           </li>
+ 
+           <li class="mb-2">
+             <i class="far fa-check-circle"> </i>
+             <span class="font-weight-bold">Project Based Learning: </span>
+             Learners are given short/long term Vēdic knowledge-based
+             projects to get a chance to investigate complex problems and identify real-world
+             solutions.
+           </li>
+ 
+           <li class="mb-2">
+             <i class="far fa-check-circle"> </i>  
+             <span class="font-weight-bold">Discovery: </span>
+             Learners discover solution to problems themselves instead of
+             being told the answers.            
+           </li>
+         </ul>
+ 
+         <h5 class="pb-2">Value Statement</h5>
+         <p>Graduates will be motivated life-long learners and productive global
+           Vēdic citizens.</p>
+       </div>
+ 
+       <div class="col-lg-6 col-md-4 align-top">
+         <img src="/assets/images/about/about-5.jpg" alt="" class="img-fluid w-100">
+       </div>
+     </div>
+   </div>
+   </section>
+ 
+   <section class="section-padding">
+     <div class="container">
+       <div class="row">
+         <div class="col-lg-6 col-md-4">
+           <img src="/assets/images/about/online_class.jpg" alt="" class="img-fluid w-100">
+         </div>
+         <div class="col-lg-6 col-sm-12 col-md-8 mb-4">
+           <h3 id="objectives" class="mb-3">Our Objectives</h3>          
+             
+           <ul class="about-list2 my-4">
+             <li class="mb-2"><i class="far fa-check-circle"></i>              
+               Learning the language of Sanskrit through Siksha (Basics of Sanskrit language) and Ashtādyayi (grammar). 
+               </li>
+               <li class="mb-2"><i class="far fa-check-circle"></i>              
+                 Understand the Vēdic Philosophy as explained by the Upanishads 
+                 to understand the nature of Ishwar (God) or what is called as Vēdanta. 
+                 </li>
+ 
+                 <li class="mb-2"><i class="far fa-check-circle"></i>              
+                   Understand the Vēdic Darshanas or what is called as the six thoughts 
+                   of understanding the Srishti (creation) by Ishwar (God).   
+                   </li>
+ 
+                   <li class="mb-2"><i class="far fa-check-circle"></i>              
+                     Understanding Natural Science, Social Science, Economics, Political Science, and 
+                     other contemporary studies from Vēdas, Upavēdas, Brāhmannās, Upanishads, 
+                     Darshanās, and other Vēdic Literature that are applicable to the selected research area/domain.  
+                     </li>
+ 
+                     <li class="mb-2"><i class="far fa-check-circle"></i>              
+                       Benefit the contemporary knowledge and society by doing 
+                       research of Vēda Mantras and extracting the knowledge present in Vēdas.   
+                       </li>
+           </ul>
+             <p>
+               Please read about our founder <a class="a_underline" href="/en/profiles/venkata-chaganti.html"><b>Dr. Venkata Ramana Chaganti</b></a>
+             </p>
+         </div>
+       </div>
+     </div>
+     </section>
+ 
+  
+ 
+ <section class="section-padding">
+   <div class="container">
+     
+     <h3 id="authority" class="pb-4">Authority to Operate</h3>
+ 
+     <h4 class="pb-4">Vēdic Authority</h4>
+     <div class="row align-items-center">     
+       <div class="col-lg-6 col-sm-12 col-md-8 mb-4">
+ 
+         <p>
+           <img src="/assets/images/about/Yajur_26_2.jpg" alt="" class="img-fluid">
+         </p>
+         <p>
+           According to Yajur Vēda mantra (26.2) (The above mantra) everyone in the universe is eligible to read Vēdas.
+           According to Manu “educating people by teaching Vēdas is the best act that any individual or society can do”. 
+         </p>
+ 
+         
+         <h3 class="mb-3">Who can read Vēdas?</h3>
+         <p class="mb-4">   
+          
+     According to Maharishi Dayanada Saraswathi “Vēdas are given by God. 
+           God is omnipotent, ubiquitous and has eternal knowledge. 
+           Therefore His Vēdas are without illusion and are self vouching”. 
+         </p>
+        
+         <p>
+           Vēdas are the knowledge of God.
+           At the beginning of creation God gave the knowledge of four Vēdas to four Rishis. Rig Vēd to Agni, Yajur Vēd to Vāyu, 
+           Sāma Vēd to Surya and Atharva Vēd to Angirasa. Here the names Agni, Vāyu, Surya and Angirasa belong to 
+           Rishis who are humans and are not of any Devatha (divine material) found in Vēdas. 
+           The language of Vēdas is Samskrut (Sanskrit).
+           According to Rishis Vēdas are described as follows. Those in which the properties, 
+           activities and nature of God are described and in which there is no dispute in the order of 
+           creation of the world and in which proofs of science can be found and in which there is no illusion or 
+           confusion and in which cause and reason about the universe and its constituents are described and in 
+           which truth and only truth is given and which are self vouching are called Vēdas, 
+           Sruthis, Nigamas, Chanddass or Mantras.
+           </p>
+       
+       </div>
+       <div class="col-lg-6 col-md-4">
+         <img src="/assets/images/about/maharshi_dayananda.jpg" alt="" class="img-fluid w-100"><br/>
+         <span class="font-weight-bold d-flex justify-content-center">Maharishi Dayanada Saraswathi</span>
+       </div>
+     </div>
+     
+     <div class="pt-4 pb-4">
+ 
+     </div>
+ 
+     
+     <!--
+     <div class="pt-4">
+       <h4 class="pb-4">Video about our University</h4>
+             <iframe src="https://player.vimeo.com/video/51119176" width="100%" height="360" frameborder="0"
+                     webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+     </div>
+     -->
+ 
+   </div>
+ 
    
+ </section>
+ 
+ <!--
+ <section class="section-padding bg-gray">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-8">
+         <div>
+           <h3 class="mb-2 text-white">Legal Authority</h3>
+           <p class="text-white">
+             <span class="text-white font-weight-bold">The following statement is required by law:</span><br/>
+             Degree programs of study offered by University of Applied Sciences (online) have been declared exempt from the requirements 
+             for licensure under provisions of North Carolina General Statutes Section (G.S.) §116-15(d) for 
+             exemption from licensure with respect to religious education. Exemption from licensure is not based upon 
+             any assessment of program quality under established licensing standards.
+           </p>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ -->
+ 
+ <!--
+ <section class="section-padding">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-6 col-md-4">
+         <img src="/assets/images/about/graduation.png" alt="" class="img-fluid w-100">
+       </div>
+       <div class="col-lg-6 col-sm-12 col-md-8 mb-4">
+         <h3 class="mb-3">Accreditation Status</h3>
+         <p class="mb-4">
+           For now, University of Applied Vēdic Sciecnes is not accredited. 
+           It however offers a legitimate degree authorized by the State of North Carolina.
+ 
+         We are working through an internal university evaluation process 
+         while preparing our application for accreditation.
+         </p>        
+       </div>      
+     </div>
+   </div>
+   </section>
+ -->
+ <!--  ABOUT AREA END  -->
 
-    <!-- 
-    Essential Scripts
-    =====================================-->
+  <footer id="footer" class="footer bg-overlay">
+    <div class="footer-main">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-4 col-md-6 footer-widget footer-about">
+            <h3 class="widget-title">About Us</h3>
+            <img loading="lazy" width="200px" class="footer-logo" src="/assets/images/logo-white.png" alt="university of Vedic Sciences">
+            <p class="text-white">University of Applied Vēdic Sciences (online) is a research-oriented academic 
+              organization with emphasis on outcome-driven real-world projects extracted from Vēdas and Shāstrās.</p>
+            <div class="footer-social">
+              <!--
+              <ul>
+                <li><a href="https://facebook.com/themefisher" aria-label="Facebook"><i
+                      class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com/themefisher" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li><a href="https://instagram.com/themefisher" aria-label="Instagram"><i
+                      class="fab fa-instagram"></i></a></li>
+                <li><a href="https://github.com/themefisher" aria-label="Github"><i class="fab fa-github"></i></a></li>
+              </ul>
+              -->
+            </div><!-- Footer social end -->
+          </div><!-- Col end -->
 
-    
-    <!-- Main jQuery -->
-    <script src="/assets/plugins/jquery/jquery.min.js"></script>
-    <!-- Bootstrap css -->
-    <script src="/assets/plugins/bootstrap/bootstrap.min.js"></script>
+          <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
+            <!--
+            <h3 class="widget-title">Working Hours</h3>
+            <div class="working-hours">
+              We work 7 days a week, every day excluding major holidays. Contact us if you have an emergency, with our
+              Hotline and Contact form.
+              <br><br> Monday - Friday: <span class="text-right">10:00 - 16:00 </span>
+              <br> Saturday: <span class="text-right">12:00 - 15:00</span>
+              <br> Sunday and holidays: <span class="text-right">09:00 - 12:00</span>
+            </div>
+            -->
+          </div><!-- Col end -->
 
-    <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
-    <script src="/assets/plugins/google-map/map.js"></script>
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
+            <h3 class="widget-title">Links</h3>
+            <ul class="list-arrow">
+              <li><a class="text-white" href="/en/profiles/venkata-chaganti.html">Founder</a></li>      
+              <li><a class="text-white" href="/en/advisory.html">Board Members</a></li>   
+              <li><a class="text-white" href="/en/privacy.html">Privacy Policy</a></li>
+              <li><a  class="text-white" href="/en/terms.html">Terms & Conditions</a></li> 
+            </ul>
+          </div><!-- Col end -->
+        </div><!-- Row end -->
+      </div><!-- Container end -->
+    </div><!-- Footer main end -->
 
-    <!-- main script -->
-    <script src="/assets/js/script.js"></script>
+    <div class="copyright">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="copyright-info text-white">
+              <span>Copyright &copy; <script>
+                  document.write(new Date().getFullYear())
+                </script></span>
+            </div>
+          </div>
 
+          <div class="col-md-6">
+            <div class="footer-menu text-center text-md-right">
+              <!--
+              <ul class="list-unstyled">
+                <li><a href="about.html">About</a></li>
+                <li><a href="team.html">Our people</a></li>
+                <li><a href="faq.html">Faq</a></li>
+                <li><a href="news-left-sidebar.html">Blog</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+              </ul>
+              -->
+            </div>
+          </div>
+        </div><!-- Row end -->
+
+        <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
+          <button class="btn btn-primary" title="Back to Top">
+            <i class="fa fa-angle-double-up"></i>
+          </button>
+        </div>
+
+      </div><!-- Container end -->
+    </div><!-- Copyright end -->
+  </footer><!-- Footer end -->
+
+
+  <!-- Javascript Files
+  ================================================== -->
+
+  <!-- initialize jQuery Library -->
+  <script src="/assets/plugins/jQuery/jquery.min.js"></script>
+  <!-- Bootstrap jQuery -->
+  <script src="/assets/plugins/bootstrap/bootstrap.min.js" defer></script>
+  <!-- Slick Carousel -->
+  <script src="/assets/plugins/slick/slick.min.js"></script>
+  <script src="/assets/plugins/slick/slick-animation.min.js"></script>
+  <!-- Color box -->
+  <script src="/assets/plugins/colorbox/jquery.colorbox.js"></script>
+  <!-- shuffle -->
+  <script src="/assets/plugins/shuffle/shuffle.min.js" defer></script>
+
+
+  <!-- Template custom -->
+  <script src="/assets/js/script.js"></script>
+
+  </div><!-- Body inner end -->
   </body>
+
   </html>
