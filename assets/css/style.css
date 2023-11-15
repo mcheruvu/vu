@@ -760,7 +760,7 @@ ul.navbar-nav > li.active > a {
 /*-- Logo --*/
 .logo img {
   width: auto;
-  height: 75px;
+  height: 125px;
 }
 
 .header-two .logo img {
@@ -1225,6 +1225,12 @@ ul.navbar-nav > li > a {
 ul.navbar-nav > li.header-.header-apply-now > a:after {
   position: relative;
   content: no-close-quote;
+}
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
 }
 
 /* Table of Content
