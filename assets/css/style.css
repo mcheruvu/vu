@@ -1753,7 +1753,7 @@ ul.navbar-nav > li.header-.header-apply-now > a:after {
   color: #fff;
 }
 
-/* Service box 
+/* Service box
 
 .ts-service-box .ts-service-icon i {
   font-size: 24px;
@@ -2450,6 +2450,10 @@ img.testimonial-thumb {
 }
 .footer-social ul li:hover {
   color: #fff;
+}
+
+.link {
+  color: blue;
 }
 
 /* Links */
